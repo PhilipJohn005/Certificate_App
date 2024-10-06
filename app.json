@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
+    "android":{"softwareKeyboardLayoutMode": "pan"},
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -19,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.Certi"
     },
     "web": {
       "bundler": "metro",
